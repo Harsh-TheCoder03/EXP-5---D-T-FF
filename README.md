@@ -1,10 +1,11 @@
+HARSH DATTATRAY MORE Ex-5
 # EXP-5-DFF-TFF
 # Design and Verification of D Flip-Flop and T Flip-Flop
 ## Aim
 To design and verify a D Flip-Flop and a T Flip-Flop using Verilog HDL, and to observe their behaviour using a testbench and VCD waveform.
 ## Theory / Synopsis
 A D Flip-Flop (Data / Delay Flip-Flop) is an edge-triggered sequential element that transfers the value present at its input D to the output Q on the active (rising) edge of the clock. It is commonly used to store one bit of data and eliminates the race-around problem seen in level-triggered latches.
-A T Flip-Flop (Toggle Flip-Flop) is an edge-triggered sequential element whose output toggles (complements) on every active clock edge when the toggle input T is high, and holds its previous state when T is low. It is widely used in counter and frequency-divider circuits.
+A T Flip-Flop (Toggle Flip-Flop) is an edge-triggered sequential element whose output toggles (complements) on every active clock edge when the toggle input T is high, and holds its previous state when T is low. It is widely used in counter and frequency-divider ciarcuits.
 Both flip-flops used here are also provided with an active-high asynchronous reset that forces Q to 0 irrespective of the clock.
 ## Boolean / Characteristic Equations
 ### D Flip-Flop
